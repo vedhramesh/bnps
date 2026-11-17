@@ -1,0 +1,31 @@
+{
+  "upcoming": [
+    {
+      "name": "[Speaker or event name]",
+      "date": "[YYYY-MM-DD]",
+      "time": "[Time]",
+      "venue": "[Venue]",
+      "rsvpUrl": "[RSVP link]"
+    },
+    {
+      "name": "[Speaker or event name]",
+      "date": "[YYYY-MM-DD]",
+      "time": "[Time]",
+      "venue": "[Venue]",
+      "rsvpUrl": "[RSVP link]"
+    },
+    {
+      "name": "[Speaker or event name]",
+      "date": "[YYYY-MM-DD]",
+      "time": "[Time]",
+      "venue": "[Venue]",
+      "rsvpUrl": "[RSVP link]"
+    }
+  ],
+  "pastSpeakers": [
+    { "name": "[Speaker name]", "note": "[title or office]" },
+    { "name": "[Speaker name]", "note": "[title or office]" },
+    { "name": "[Speaker name]", "note": "[title or office]" },
+    { "name": "[Speaker name]", "note": "[title or office]" }
+  ]
+}

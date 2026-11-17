@@ -1,0 +1,34 @@
+[
+  {
+    "lead": true,
+    "title": "[Lead article headline in sentence case]",
+    "url": "[/journal/article-slug.html]",
+    "author": "[Author Name]",
+    "date": "[YYYY-MM-DD]",
+    "excerpt": "[The article's first sentence.] [The article's second sentence.]"
+  },
+  {
+    "title": "[Article headline]",
+    "url": "[/journal/article-slug.html]",
+    "author": "[Author Name]",
+    "date": "[YYYY-MM-DD]"
+  },
+  {
+    "title": "[Article headline]",
+    "url": "[/journal/article-slug.html]",
+    "author": "[Author Name]",
+    "date": "[YYYY-MM-DD]"
+  },
+  {
+    "title": "[Article headline]",
+    "url": "[/journal/article-slug.html]",
+    "author": "[Author Name]",
+    "date": "[YYYY-MM-DD]"
+  },
+  {
+    "title": "[Article headline]",
+    "url": "[/journal/article-slug.html]",
+    "author": "[Author Name]",
+    "date": "[YYYY-MM-DD]"
+  }
+]

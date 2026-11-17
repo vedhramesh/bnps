@@ -1,0 +1,12 @@
+[
+  { "name": "European Parliament", "file": "european-parliament.png", "displayMode": "text" },
+  { "name": "U.S. Department of the Treasury", "file": "treasury.png", "displayMode": "text" },
+  { "name": "U.S. Department of Health and Human Services", "file": "hhs.png", "displayMode": "text" },
+  { "name": "U.S. Department of State", "file": "state.png", "displayMode": "text" },
+  { "name": "U.S. Senate", "file": "senate.png", "displayMode": "text" },
+  { "name": "University of Pennsylvania", "file": "penn.png", "displayMode": "logo" },
+  { "name": "The White House", "file": "white-house.png", "displayMode": "text" },
+  { "name": "Société Générale", "file": "societe-generale.png", "displayMode": "logo" },
+  { "name": "United Nations", "file": "united-nations.png", "displayMode": "text" },
+  { "name": "U.S. House of Representatives", "file": "house.png", "displayMode": "text" }
+]
