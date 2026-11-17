@@ -168,7 +168,7 @@
      Carousel
      ------------------------------------------------------------------ */
 
-  var LOGO_DIR = '/assets/logos/';
+  var LOGO_DIR = 'assets/logos/';
   var PX_PER_SECOND = 55;
 
   function showAsLogo(entry, mode) {
@@ -354,9 +354,9 @@
   initTyping();
   initPaletteButton();
 
-  var site = getJSON('/data/site.json');
+  var site = getJSON('data/site.json');
   site.then(applySite);
-  Promise.all([site, getJSON('/data/logos.json')]).then(function (r) { renderCarousel(r[0], r[1]); });
-  getJSON('/data/articles.json').then(renderArticles);
-  getJSON('/data/events.json').then(renderEvents);
+  Promise.all([site, getJSON('data/logos.json')]).then(function (r) { renderCarousel(r[0], r[1]); });
+  getJSON('data/articles.json').then(renderArticles);
+  getJSON('data/events.json').then(renderEvents);
 })();

@@ -39,8 +39,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,500;0,700;1,500&display=swap">
-  <link rel="stylesheet" href="/assets/css/home.css">
-  <script src="/assets/js/home.js" defer></script>
+  <link rel="stylesheet" href="assets/css/home.css">
+  <script src="assets/js/home.js" defer></script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to the content</a>
@@ -48,18 +48,18 @@
   <header class="masthead">
     <div class="wrap">
       <div class="masthead-top">
-        <a class="wordmark" href="/">
+        <a class="wordmark" href="./">
           <!-- POLIS's own logo. Drop the file at this path; if it's missing, the slot disappears. -->
-          <img class="wordmark-logo" src="/assets/img/polis-logo.svg" width="44" height="44" alt="" onerror="this.remove()">
+          <img class="wordmark-logo" src="assets/img/polis-logo.svg" width="44" height="44" alt="" onerror="this.remove()">
           <span>POLIS</span>
         </a>
         <nav class="nav" aria-label="Main">
-          <a href="/about.html">About</a>
-          <a href="/events.html">Events</a>
-          <a href="/journal.html">Journal</a>
-          <a href="/fellows.html">Fellows</a>
-          <a href="/network.html">Network</a>
-          <a class="nav-join" href="/join.html">Join</a>
+          <a href="about.html">About</a>
+          <a href="events.html">Events</a>
+          <a href="journal.html">Journal</a>
+          <a href="fellows.html">Fellows</a>
+          <a href="network.html">Network</a>
+          <a class="nav-join" href="join.html">Join</a>
           <button class="nav-search" type="button" data-open-palette aria-label="Search the site" title="Search (⌘K)">
             <svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true" focusable="false">
               <circle cx="8.5" cy="8.5" r="5.75" fill="none" stroke="currentColor" stroke-width="1.5"/>
@@ -76,9 +76,9 @@
 
     <section class="hero" aria-labelledby="hero-heading">
       <picture class="hero-photo">
-        <source type="image/avif" srcset="/assets/img/rotunda.avif">
-        <source type="image/webp" srcset="/assets/img/rotunda.webp">
-        <img src="/assets/img/rotunda.jpg" width="2400" height="1600" alt="" decoding="async" fetchpriority="high">
+        <source type="image/avif" srcset="assets/img/rotunda.avif">
+        <source type="image/webp" srcset="assets/img/rotunda.webp">
+        <img src="assets/img/rotunda.jpg" width="2400" height="1600" alt="" decoding="async" fetchpriority="high">
       </picture>
 
       <div class="wrap hero-inner">
@@ -95,8 +95,8 @@
         <div class="hero-after">
           <p class="hero-support" data-hero-support>[One sentence on what POLIS is.]</p>
           <p class="hero-actions">
-            <a class="btn" href="/join.html" data-apply>Apply</a>
-            <a class="hero-link" href="/events.html">or see what's on this semester</a>
+            <a class="btn" href="join.html" data-apply>Apply</a>
+            <a class="hero-link" href="events.html">or see what's on this semester</a>
           </p>
         </div>
       </div>
@@ -116,7 +116,7 @@
 
       <div class="wrap">
         <p class="disclaimer" data-network-disclaimer>Organizations where POLIS members and alumni have worked or interned. Inclusion does not imply affiliation with or endorsement of POLIS.</p>
-        <p class="alumni-more"><a href="/network.html">see the whole map of where people ended up</a></p>
+        <p class="alumni-more"><a href="network.html">see the whole map of where people ended up</a></p>
       </div>
     </section>
 
@@ -124,31 +124,31 @@
 
       <section class="journal" aria-labelledby="journal-heading">
         <h2 class="section-heading" id="journal-heading">From the Journal</h2>
-        <p class="section-note">Written by POLIS members. <a href="/journal.html#pitch">Pitch us something.</a></p>
+        <p class="section-note">Written by POLIS members. <a href="journal.html#pitch">Pitch us something.</a></p>
 
         <div data-lead-article></div>
         <ol class="article-list" data-article-list></ol>
 
-        <p class="section-more"><a href="/journal.html">Everything we've published</a></p>
+        <p class="section-more"><a href="journal.html">Everything we've published</a></p>
       </section>
 
       <aside class="sidebar">
         <section aria-labelledby="calendar-heading">
           <h2 class="sidebar-heading" id="calendar-heading">On the calendar</h2>
           <dl class="events" data-events></dl>
-          <noscript><p><a href="/events.html">See the events page</a> for what's coming up.</p></noscript>
+          <noscript><p><a href="events.html">See the events page</a> for what's coming up.</p></noscript>
         </section>
 
         <section aria-labelledby="spoken-heading">
           <h2 class="sidebar-subheading" id="spoken-heading">Who's spoken here before</h2>
           <ul class="speakers" data-past-speakers></ul>
-          <p class="sidebar-more"><a href="/events.html#past">the full list, going back</a></p>
+          <p class="sidebar-more"><a href="events.html#past">the full list, going back</a></p>
         </section>
 
         <section aria-labelledby="people-heading">
           <h2 class="sidebar-subheading" id="people-heading">The people</h2>
           <p data-people-line>[One sentence about who POLIS fellows are.]</p>
-          <p class="sidebar-more"><a href="/fellows.html">browse the fellows directory</a> or <a href="/network.html">look at the network map</a></p>
+          <p class="sidebar-more"><a href="fellows.html">browse the fellows directory</a> or <a href="network.html">look at the network map</a></p>
         </section>
       </aside>
 
@@ -160,9 +160,9 @@
       <div class="footer-row">
         <p>POLIS · Pi Lambda Sigma · Philadelphia</p>
         <p class="footer-links">
-          <a href="/about.html#contact">Contact</a> ·
-          <a href="/about.html#speakers">For speakers' offices</a> ·
-          <a href="/join.html">Join</a>
+          <a href="about.html#contact">Contact</a> ·
+          <a href="about.html#speakers">For speakers' offices</a> ·
+          <a href="join.html">Join</a>
         </p>
       </div>
       <p class="footer-fine">POLIS is a student organization at the University of Pennsylvania. Not affiliated with any government agency.</p>
